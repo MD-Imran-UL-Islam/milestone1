@@ -1,3 +1,7 @@
+* {
+   font-family: 'Work Sans';
+}
+
 header {
 
     display: flex;
@@ -261,7 +265,7 @@ footer {
     top: 2393.3px;
     border-radius: 5px;
     background-color: #FFFFFF;
-    
+
 
     font-family: 'Work Sans';
     font-style: normal;
@@ -273,9 +277,42 @@ footer {
     color: #F15B22;
 
 }
+
 .grad-desi {
     width: 459px;
     height: 182px;
     margin-left: 94px;
     top: 2275.3px;
+}
+
+.commit {
+    width: 485px;
+    height: 317px;
+    margin-left: 110px;
+    margin-top: 100.3px;
+    color: #FFFFFF;
+}
+
+.foot {
+    background-color: #151414;
+    display: flex;
+}
+
+
+
+.foot-div {
+    width: 175px;
+    height: 46px;
+    display: flex;
+    border: 1px solid #F15B22;
+    justify-content: space-around;
+}
+.subs {
+  color: #FFFFFF;
+  margin-left: 150px;
+  margin-top: 95px;
+  
+}
+.subs > button {
+    display: block;
 }
