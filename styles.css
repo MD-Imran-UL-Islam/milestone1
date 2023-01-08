@@ -229,7 +229,6 @@ ul {
     width: 1141px;
     height: 499.96px;
     margin-left: 230px;
-    border: 2px solid blue;
     margin-top: 0px;
 
 }
@@ -281,8 +280,8 @@ ul {
     width: 459px;
     height: 94px;
     left: 294px;
-    top: 2275.3px;
-
+    top: 2700.3px;
+    
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
@@ -292,6 +291,7 @@ ul {
     color: #FFFFFF;
 }
 
+
 .grad-btn {
     width: 160px;
     height: 64px;
@@ -299,7 +299,7 @@ ul {
     top: 2393.3px;
     border-radius: 5px;
     background-color: #FFFFFF;
-
+    border: 0px;
 
     font-family: 'Work Sans';
     font-style: normal;
