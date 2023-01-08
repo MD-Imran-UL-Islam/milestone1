@@ -91,7 +91,6 @@ header {
 /*main section*/
 main {
     width: 1600px;
-    border: 5px solid violet;
     display: inline-block;
 }
 
@@ -101,16 +100,22 @@ main {
     Height: 723.3px;
     background-repeat: no-repeat;
     margin: 130px 321px 988px 206px;
-    border: 1px solid brown;
+    
 }
 
-footer {
-    border: 1px solid red;
-    width: 1600px;
-    height: 577px;
-    left: 0px;
+ul {
+    list-style-type: none;
 }
+.points > ul > li > img {
+    width: 24px;
+    height: 24px;
+    
+}
+.points > ul {
+    
+    margin-left: -15px;
 
+}
 /*
 
 .failure-head {
@@ -183,7 +188,7 @@ footer {
 }
 
 .failure {
-    border: 3px solid burlywood;
+   
     height: 1000px;
 }
 
@@ -216,7 +221,7 @@ footer {
     font-size: 40px;
     line-height: 47px;
     color: #151414;
-    border: 1px dotted darkolivegreen;
+    
 }
 
 
@@ -230,7 +235,7 @@ footer {
 }
 
 .plans-des {
-    border: 1px solid red;
+    
     display: flex;
     justify-content: space-around;
     margin-top: 0px;
@@ -239,18 +244,24 @@ footer {
 .plans-icon>img {
     width: 93px;
     height: 93px;
+    margin-left: 40px;
+    
 }
 
+.plans-icon > h4 {
+    text-align: center;
+}
 .plans-icon>p {
     width: 170px;
     height: 80px;
     
+    text-align: center;
 
 }
 
 .plans-icon {
     margin: 0px;
-    border: 2px solid blue;
+    
 }
 
 /*gradient section*/
@@ -259,7 +270,7 @@ footer {
     width: 1141px;
     height: 299.96px;
     margin-left: 230px;
-    border: 2px solid blue;
+   
     margin-top: 0px;
     background-image: url("images/gradient2.png"), url("images/watch.png");
     margin-bottom: 130px;
@@ -309,6 +320,13 @@ footer {
 }
 
 /*footer section*/
+footer {
+    
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+}
+
 .commit {
     width: 485px;
     height: 317px;
@@ -333,7 +351,6 @@ footer {
     width: 175px;
     height: 46px;
     display: flex;
-    border: 1px solid #F15B22;
     justify-content: space-around;
 }
 
