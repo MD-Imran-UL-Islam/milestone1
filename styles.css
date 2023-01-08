@@ -88,7 +88,8 @@ header {
     margin: 1177px 322px 1646px 862px;
 }
 */
-/*main section*/
+
+  /*main section*/
 main {
     width: 1600px;
     display: inline-block;
@@ -100,6 +101,7 @@ main {
     Height: 723.3px;
     background-repeat: no-repeat;
     margin: 130px 321px 988px 206px;
+    border: 1px solid red;
     
 }
 
