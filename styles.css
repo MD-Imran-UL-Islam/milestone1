@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
     width: 1600px;
     height: 809px;
-    background-image: url("/images/banner2.png");
+    background-image: url("images/banner2.png");
 
 }
 
@@ -96,7 +96,7 @@ main {
 }
 
 .failure-body {
-    background-image: url("/images/person.png");
+    background-image: url("images/person.png");
     Width: 1072px;
     Height: 723.3px;
     background-repeat: no-repeat;
@@ -261,7 +261,7 @@ footer {
     margin-left: 230px;
     border: 2px solid blue;
     margin-top: 0px;
-    background-image: url("/images/gradient2.png"), url("/images/watch.png");
+    background-image: url("images/gradient2.png"), url("images/watch.png");
     margin-bottom: 130px;
 
 }
